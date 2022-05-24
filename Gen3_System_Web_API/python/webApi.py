@@ -2,7 +2,7 @@
 
 import requests, sys, ipaddress, json
 
-USAGE_MSG = 'Usage: webApi HOST[:PORT] KEY [KEY ...]'
+USAGE_MSG = 'Usage: webApi.py HOST[:PORT] KEY [KEY ...]'
 STATUS_URL_FMT = 'http://{ip}/api/v1/status'
 
 if __name__ == '__main__':
